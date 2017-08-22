@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	h1= title
+	p Use the text box and controls below to set the number!
+	//number
+	#number= number
+	input#num(type='text', name='num')
+	br
+	#add.control Add
+	#sub.control Subtract
+	#reset.control Reset
+	#show.control Update
+	
